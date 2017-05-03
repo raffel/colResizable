@@ -202,7 +202,7 @@
 		t.cg.eq(i).width( w + PX);
         if(t.f){ //if fixed mode
             c2.width(w2 + PX);
-						$('.tbody-table thead tr:eq(0) th:eq(' + (i+1) + ')').width(w2 + PX);
+						$('.body-table thead tr:eq(0) th:eq(' + (i+1) + ')').width(w2 + PX);
             t.cg.eq(i+1).width( w2 + PX);
         }else if(t.opt.overflow) {				//if overflow is set, incriment min-width to force overflow
             t.css('min-width', t.w + inc);
